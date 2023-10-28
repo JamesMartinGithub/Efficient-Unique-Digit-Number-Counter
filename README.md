@@ -8,7 +8,7 @@ This solution splits a range into smaller ranges that can be computed using just
 this means very little iteration is used compared to the standard solution of triple-nested for loops.
 
 ### Efficiency compared to a simple iterative solution:
-The iterative algorithm used is provided in `iterativeSolution.py`. The results are averaged.
+The iterative algorithm used is provided in `IterativeSolution.py`. The results are averaged.
 
 #### Test data:
 ```
