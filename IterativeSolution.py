@@ -1,6 +1,6 @@
 """
-Given list of pairs of numbers, return count of numbers
-with unique digits between the oaur if numbers (inclusive)
+Given a list of pairs of numbers, return the count of numbers
+with unique digits between the pair of numbers (inclusive)
 """
 import math
 
@@ -23,12 +23,5 @@ def countUnique(arr):
                     digits.append(string[a])
             if valid:
                 count += 1
-        
         results.append(count)
     return results
-
-
-arr = [[
-100000, 140000
-    ]]
-print(countUnique(arr))
