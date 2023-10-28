@@ -22,7 +22,15 @@ b = [[1,2235070], [50, 90334680], [166, 30553800], [453236, 257925], [50, 108568
 + Array b
   - Iterative solution: 107.31039s
   - Efficient Solution: 000.00745s
+ 
+While the sum of all range lengths increased by 269437%:
 
-The iterative solution's time increased by 292378%
+- The iterative solution's time increased by 292378%
 
-The efficient solution's time increased by   4866%
+- The efficient solution's time increased by   4866%
+
+### Validation:
+
+The program was tested using manual testing including boundry testing, in addition to automated testing using thousands of random inputs.
+
+Results from `UniqueDigitNumberCounter.py` were compared against results from `IterativeSolution.py`.
